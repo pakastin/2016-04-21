@@ -32,6 +32,7 @@ var items = [
   'Started with Flash in 1999',
   'Work with small businesses and advertising agencies',
   'Entrepreneur since 2006',
+  'Started with Node.js in 2011',
   'Lead developer of iDiD digital signage (idid.fi)'
 ].map(function (item) {
   return new Li(item);
