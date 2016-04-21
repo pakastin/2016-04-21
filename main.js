@@ -99,5 +99,5 @@ function update () {
     return Math.random() - .5;
   });
   list.update(data.slice(0, Math.random() * 25 + 25 | 0));
-  requestAnimationFrame(update);
+  setTimeout(update, 1000);
 }
